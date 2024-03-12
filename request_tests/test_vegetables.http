@@ -1,0 +1,38 @@
+#GET http://localhost:8000/api/v1/lessons/
+#Accept: application/json
+
+
+#GET http://localhost:8000/api/v1/lessons/1
+#Accept: application/json
+
+
+#POST http://localhost:8000/api/v1/create/
+#Accept: application/json
+#
+#{
+#"title":"Django rest",
+#"subject":"DRF",
+#"plan":"You dead"
+#}
+
+
+
+#PUT http://localhost:8000/api/v1/update/1/
+#Accept: application/json
+#
+#{
+#"title":"Banana",
+#"subject":"Grocery",
+#"plan":"Eat"
+#}
+
+
+#PATCH http://localhost:8000/api/v1/pr-update/1/
+#Accept: application/json
+#
+#{
+#"subject":"Orange"
+#}
+
+#DELETE http://localhost:8000/api/v1/delete/3/
+#Accept: application/json

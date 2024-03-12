@@ -1,0 +1,22 @@
+#GET http://localhost:8000/api/v1/fruits
+#Accept: Application/json
+#poluchenie spiskav frukta
+#
+#
+#sozdanie frukta
+#POST http://localhost:8000/api/v1/fruits/create/
+#Accept: Application/json
+
+
+#{
+#"id":4,
+#"name":"tamato",
+#"price":450
+#}
+
+
+
+
+#poluchenie odnogo frukta
+#GET http://localhost:8000/api/v1/fruits/1
+#Accept: Applications/json
